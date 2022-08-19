@@ -5,6 +5,11 @@ module.exports = {
     lineNumbers: true,
   },
   lang: 'zh-CN',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+    },
+  },
   head: [
     [
       'link',
@@ -55,11 +60,13 @@ module.exports = {
         text: 'Tag',
       },
     },
+    subSidebar: 'auto',
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: '更新时间',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '本文源码地址',
+    base: '/docs',
   },
 };

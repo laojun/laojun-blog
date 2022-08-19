@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laojun/laojun-blog.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/laojun/laojun-blog#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
