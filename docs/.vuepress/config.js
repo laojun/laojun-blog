@@ -67,6 +67,6 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '本文源码地址',
-    base: '/docs',
+    base: '/blog',
   },
 };
