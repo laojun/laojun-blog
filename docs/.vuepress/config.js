@@ -68,4 +68,5 @@ module.exports = {
     editLinks: true,
     editLinkText: '本文源码地址',
   },
+  base: '/laojun-blog/',
 };
